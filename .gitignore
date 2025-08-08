@@ -1,0 +1,52 @@
+# === Rust build ===
+/portfolio/target
+**/*.rs.bk
+
+# === Cargo lock (garde si binaire, ignore si lib) ===
+# Si c'est une lib, décommente la ligne suivante :
+# /portfolio/Cargo.lock
+
+# === Dépendances téléchargées par Cargo (optionnel, /target suffit déjà) ===
+/portfolio/.cargo/
+
+# === Logs ===
+*.log
+log/
+logs/
+
+# === OS files ===
+.DS_Store
+Thumbs.db
+
+# === IDE configs ===
+# VSCode
+.vscode/
+# JetBrains (IntelliJ, CLion, RustRover)
+.idea/
+*.iml
+
+# === Environnements et secrets ===
+.env
+.env.*
+!env.example
+
+# === GitHub Actions caches ===
+/.github/workflows/*.yml~
+.github/workflows/__pycache__/
+.github/workflows/*.log
+
+# === Docker ===
+docker-compose.override.yml
+**/docker-data/
+**/tmp/
+
+# === Tests ===
+/coverage/
+/htmlcov/
+/test-results/
+
+# === Autres caches ===
+/tmp/
+/cache/
+/dist/
+/build/
