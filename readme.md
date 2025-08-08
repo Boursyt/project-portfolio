@@ -29,3 +29,4 @@ This project is a showcase of my skills and experiences as a Cloud Engineer / De
 ## CI/CD Pipeline
 
 - GitHub Actions for automated testing and deployment. Both for the Proxmox and GCP environments.
+- Rust pipeline for building and testing the application.
