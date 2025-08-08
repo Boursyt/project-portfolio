@@ -8,6 +8,8 @@
 
 # === Dépendances téléchargées par Cargo (optionnel, /target suffit déjà) ===
 /portfolio/.cargo/
+/portfolio/Cargo.lock
+/portfolio/Cargo.toml
 
 # === Logs ===
 *.log
